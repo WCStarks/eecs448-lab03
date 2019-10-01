@@ -1,4 +1,5 @@
-let slides = ["images/image1.jpg", "images/image2.jpg", "images/image3.jpg"];
+let slides = ["images/image1.jpg", "images/image2.jpg", "images/image3.jpg",
+              "images/image4.jpg", "images/image5.jpg"];
 let index = 0;
 
 function prev()
