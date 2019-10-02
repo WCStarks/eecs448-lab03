@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>CSS Manipulation</title>
+        <script type="text/javascript" src="CSS_Manipulation.js"></script>
+    </head>
+    <body>
+        <p id="text" style="width:500px">
+            Enter an RGB value in the given fields and click "Change Color"
+            to change the border and background color of this paragraph.
+            Use decimal values when specifying the color (0-255). 
+        </p>
+        <p> 
+            Border: <br> <br>
+            Red Value: <br> <input id="border-red" value="0"></input> <br>
+            Green Value: <br> <input id="border-green" value="0"></input> <br>
+            Blue Value: <br> <input id="border-blue" value="0"></input> <br>
+            Width: <br> <input id="width" value="1"></input> <br><br>
+        </p>
+        <p>
+            Backround: <br><br>
+            Red Value <br> <input id="background-red" value="255"></input> <br>
+            Green Value: <br> <input id="background-green" value="255"></input> <br>
+            Blue Value: <br> <input id="background-blue" value="255"></input> <br>
+        </p>
+        <button onclick="color()">Change Color</button>
+    </body>
+</html>
