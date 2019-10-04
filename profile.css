@@ -1,0 +1,49 @@
+body
+{
+    background-color: #60809e;
+}
+
+
+#profilePicture
+{
+    border: 3px solid black;
+}
+
+
+p
+{
+    font-family: Palatino Linotype;
+    font-size: 14px;
+}
+
+p.textbox
+{
+    border: 2px solid black;
+    width: 400px;
+    padding: 10px;
+    background-color: #f7b5bd;
+}
+
+a
+{
+    text-decoration: none;
+}
+
+a:hover
+{
+    color: green;
+    font-family: Comic Sans MS;
+    font-size: 16px;
+}
+
+iframe
+{
+    margin-left: 60px;
+    margin-bottom: 45px;
+}
+
+#links
+{
+    margin-left: 430px;
+    margin-top: -222px;
+}
